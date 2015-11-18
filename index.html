@@ -4,9 +4,39 @@
   <meta charset="utf-8">
   <title>Une reproduction Mondrian</title>
   <style type="text/css">
+  body{
+    height: 100%;
+    margin:0 auto;
+  }
+  .gauche{
+    width : 25%;
+    /*height: 100%;*/
+    position: absolute;
+  }
+  .droite_haut{
+    width: 74.5%;
+    height: 50%;
+    margin-left: 25%;
+    position: absolute;
+    /*float: right;*/
+    border-left: 5px solid black;
+  }
+  .droite_bas{
+    background-color: red;
+    width: 74.5%;
+    height: 50%;
+    margin-left: 25%;
+    margin-top: 35.2%;
+    position: absolute;
+    /*float: right;*/
+    border-top: 4px solid black;
+    border-left: 5px solid black;
+  }
   </style>
 </head>
 <body>
-  <div id="wrapper">bla</div>
+    <div class="gauche"></div>
+    <div class="droite_haut"></div>
+    <div class="droite_bas"></div>
 </body>
 </html>
